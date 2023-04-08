@@ -1,0 +1,271 @@
+﻿body {
+   background-color: #D6DBDF;
+
+}
+
+
+#cabeceraweb {
+   background-color: white;
+   border-bottom: grey;
+   border-top: white;
+   border-left: white;
+   border-right: white;
+   border-width: 0.6px;
+   border-style: solid;
+   font-family: Arial, Helvetica, sans-serif;
+
+
+
+
+}
+
+#navegacionprincipal {
+   background-color: #212F3C;
+   padding-top: 2px;
+   padding-bottom: 2px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+   box-shadow: 0 5px 10px;
+
+
+}
+
+#barralateral {
+   background-color: #212F3C;
+   float: left;
+   border-width: 2px;
+   border-radius: 2px;
+   border-style: solid;
+   font-family: Arial, Helvetica, sans-serif;
+   padding-bottom: 20px;
+   padding-top: 20px;
+   padding-left: -60PX;
+   padding-right: -40px;
+   box-shadow: 0 5px 10px;
+   margin-bottom: 50px;
+
+
+
+
+
+}
+
+#contenidoprincipal {
+   background-color: #D6EAF8;
+   margin-left: 220px;
+   /*  separacion del borde */
+   padding-left: 20px;
+   /*separacion de la letra*/
+   margin-bottom: 10px;
+   margin-top: 10px;
+   padding: 10px;
+   padding-bottom: 10px;
+   border-width: 2px;
+   border-radius: 2px;
+   border-style: solid;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: justify;
+
+}
+
+#pieprincipal {
+   background-color: #212F3C;
+   text-align: center;
+   padding-bottom: 2px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: white;
+   margin-top: 250px;
+
+
+}
+
+li {
+   padding-left: 50px;
+   display: inline;
+   color: white;
+   transition: 0.6s linear;
+
+}
+
+nav li:hover {
+   color: red;
+
+}
+
+nav li a:hover {
+   color: red;
+
+}
+
+nav li a {
+   text-decoration: none;
+   color: white;
+}
+
+
+figure {
+
+   text-align: center;
+
+}
+
+.h2 {
+   text-align: center;
+   background: #34495E;
+   color: white;
+   margin-top: -20px;
+   margin-left: 245px;
+   margin-right: 25px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+#figure1 {
+
+   padding-top: 5px;
+}
+
+aside a {
+   text-decoration: none;
+   color: white;
+}
+
+aside a:hover {
+
+   color: red;
+   transition-duration: 0.4s;
+
+}
+
+/*Boton guardar*/
+
+.boton1 {
+
+   margin: 10px 30px;
+   background-color: #AED6F1;
+   color: black;
+   width: 150px;
+   height: 50px;
+   font-size: 20px;
+   border: 1px solid white;
+   border-radius: 5px;
+   cursor: pointer;
+   -webkit-transition-duration: 0.2s;
+   /* Safari */
+   transition-duration: 0.2s;
+   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24)
+}
+
+.boton1:hover {
+
+
+   background-color: #34495E;
+   color: white;
+   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.boton1:active {
+   background-color: #212F3C;
+   box-shadow: 0 5px white;
+   transform: translateY(4px);
+}
+
+/*Boton Consultar*/
+
+.boton2 {
+
+   margin: 10px 30px;
+   background-color: #AED6F1;
+   color: black;
+   width: 150px;
+   height: 50px;
+   font-size: 20px;
+   border: 1px solid white;
+   border-radius: 5px;
+   cursor: pointer;
+   -webkit-transition-duration: 0.2s;
+   /* Safari */
+   transition-duration: 0.2s;
+   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24)
+}
+
+.boton2:hover {
+
+
+   background-color: #34495E;
+   color: white;
+   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.boton2:active {
+   background-color: #212F3C;
+   box-shadow: 0 5px white;
+   transform: translateY(4px);
+}
+
+/*Boton Editar*/
+
+.boton3 {
+
+   margin: 10px 30px;
+   background-color: #AED6F1;
+   color: black;
+   width: 150px;
+   height: 50px;
+   font-size: 20px;
+   border: 1px solid white;
+   border-radius: 5px;
+   cursor: pointer;
+   -webkit-transition-duration: 0.2s;
+   /* Safari */
+   transition-duration: 0.2s;
+   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24)
+}
+
+.boton3:hover {
+
+
+   background-color: #34495E;
+   color: white;
+   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.boton3:active {
+   background-color: #212F3C;
+   box-shadow: 0 5px white;
+   transform: translateY(4px);
+}
+
+/*Boton Eliminar*/
+
+.boton4 {
+
+   margin: 10px 30px;
+   background-color: #AED6F1;
+   color: black;
+   width: 150px;
+   height: 50px;
+   font-size: 20px;
+   border: 1px solid white;
+   border-radius: 5px;
+   cursor: pointer;
+   -webkit-transition-duration: 0.2s;
+   /* Safari */
+   transition-duration: 0.2s;
+   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24)
+}
+
+.boton4:hover {
+
+
+   background-color: #34495E;
+   color: white;
+   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.boton4:active {
+   background-color: #212F3C;
+   box-shadow: 0 5px white;
+   transform: translateY(4px);
+}
